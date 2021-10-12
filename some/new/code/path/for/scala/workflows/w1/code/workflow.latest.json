@@ -42,6 +42,35 @@
           "expression" : "lit(true)"
         }
       }
+    },
+    "SQLStatement_7313" : {
+      "id" : "SQLStatement_7313",
+      "component" : "SQLStatement",
+      "metadata" : {
+        "label" : "SQLStatement_0",
+        "slug" : "sql_statement_0",
+        "x" : 588,
+        "y" : 177,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "64217",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "fileTabs" : [ {
+          "path" : "out0",
+          "id" : "out0",
+          "language" : "sql",
+          "content" : ""
+        } ],
+        "inputPortNames" : [ ]
+      }
     }
   },
   "ports" : {

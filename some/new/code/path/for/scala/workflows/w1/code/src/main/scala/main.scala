@@ -11,9 +11,8 @@ import graph._
 object Main {
 
   def apply(spark: SparkSession): Unit = {
-    val df_filter_0_out0 = filter_0(spark)
-    df_filter_0_out0.cache().count()
-    df_filter_0_out0.unpersist()
+    val df_filter_0_out0        = filter_0(spark)
+    val df_sql_statement_0_out0 = sql_statement_0(spark)
   }
 
   def main(args: Array[String]): Unit = {
